@@ -19,4 +19,11 @@ button.onclick = addItem;
  */
 function addItem(){
 
+    let inputValue = input.value;
+
+    let listItem = document.createElement('li');
+
+    listItem.innerText = inputValue;
+
+    list.append(listItem);
 }
